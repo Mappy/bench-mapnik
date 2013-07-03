@@ -1,0 +1,15 @@
+
+With Postgis patch:
+
+('data/merc_layer.xml', 256, 256, 1000) : total: 31.613 mean: 0.032 stddev: 0.000)
+('data/merc_layer.xml', 384, 384, 1000) : total: 33.729 mean: 0.034 stddev: 0.000)
+('data/merc_layer.xml', 512, 512, 1000) : total: 45.751 mean: 0.046 stddev: 0.000)
+('data/merc_layer.xml', 768, 768, 1000) : total: 48.631 mean: 0.049 stddev: 0.001)
+
+Without Postgis patch:
+
+('data/merc_layer.xml', 256, 256, 1000) : total: 31.773 mean: 0.032 stddev: 0.001)
+('data/merc_layer.xml', 384, 384, 1000) : total: 34.289 mean: 0.034 stddev: 0.000)
+('data/merc_layer.xml', 512, 512, 1000) : total: 45.743 mean: 0.046 stddev: 0.000)
+('data/merc_layer.xml', 768, 768, 1000) : total: 48.505 mean: 0.049 stddev: 0.000)
+
