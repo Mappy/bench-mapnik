@@ -1,0 +1,30 @@
+- mapnik path: /usr/local/lib/python2.7/site-packages/mapnik/__init__.pyc
+- _mapnik.so path: /usr/local/lib/python2.7/site-packages/mapnik/_mapnik.so
+- Input plugins path: /usr/local/lib/mapnik/input
+- Font path: /usr/local/lib/mapnik/fonts
+
+Mapnik 2.2 
+
+- Running benchmarks:
+
+Mapnik 2.2 Without Postgis patch:
+
+('data/pg_merc_layer.xml', 256, 256, 1000) : total: 38.751 mean: 0.039 stddev: 0.002)
+('data/pg_merc_layer.xml', 384, 384, 1000) : total: 39.684 mean: 0.040 stddev: 0.001)
+('data/pg_merc_layer.xml', 512, 512, 1000) : total: 53.155 mean: 0.053 stddev: 0.001)
+('data/pg_merc_layer.xml', 768, 768, 1000) : total: 56.451 mean: 0.056 stddev: 0.001)
+('data/shp_merc_layer.xml', 256, 256, 1000) : total: 29.976 mean: 0.030 stddev: 0.000)
+('data/shp_merc_layer.xml', 384, 384, 1000) : total: 32.078 mean: 0.032 stddev: 0.000)
+('data/shp_merc_layer.xml', 512, 512, 1000) : total: 44.181 mean: 0.044 stddev: 0.000)
+('data/shp_merc_layer.xml', 768, 768, 1000) : total: 47.266 mean: 0.047 stddev: 0.001)
+
+Mapnik 2.2 With Postgis patch: 
+
+('data/pg_merc_layer.xml', 256, 256, 1000) : total: 39.047 mean: 0.039 stddev: 0.001)
+('data/pg_merc_layer.xml', 384, 384, 1000) : total: 40.458 mean: 0.040 stddev: 0.001)
+('data/pg_merc_layer.xml', 512, 512, 1000) : total: 53.043 mean: 0.053 stddev: 0.001)
+('data/pg_merc_layer.xml', 768, 768, 1000) : total: 56.942 mean: 0.057 stddev: 0.001)
+('data/shp_merc_layer.xml', 256, 256, 1000) : total: 29.863 mean: 0.030 stddev: 0.000)
+('data/shp_merc_layer.xml', 384, 384, 1000) : total: 31.808 mean: 0.032 stddev: 0.000)
+('data/shp_merc_layer.xml', 512, 512, 1000) : total: 43.902 mean: 0.044 stddev: 0.000)
+('data/shp_merc_layer.xml', 768, 768, 1000) : total: 46.604 mean: 0.047 stddev: 0.000)
