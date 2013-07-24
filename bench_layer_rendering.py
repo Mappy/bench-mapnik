@@ -101,6 +101,8 @@ def bench_render_map(mapfile, w, h, n):
 
 
 testcases = (
+    ("data/france_administrative.xml", 256, 256, 20),
+    ("data/france_administrative.xml", 384, 384, 20),
     ("data/pg_merc_layer.xml", 256, 256, 1000),
     ("data/pg_merc_layer.xml", 384, 384, 1000),
     ("data/pg_merc_layer.xml", 512, 512, 1000),
