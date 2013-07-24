@@ -13,7 +13,7 @@
             <!--Parameter name="host">localhost</Parameter>
             <Parameter name="user">postgres</Parameter-->
             <Parameter name="srid">4326</Parameter>
-            <Parameter name="table"><![CDATA[(SELECT * FROM france_administrative) as france_adm]]></Parameter>
+            <Parameter name="table"><![CDATA[(SELECT * FROM france_administrative) as fr_adm]]></Parameter>
         </Datasource>
     </Layer>
 </Map>
