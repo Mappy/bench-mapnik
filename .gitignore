@@ -8,5 +8,8 @@
 *.swp
 *.zip
 data/france_shapefiles
+.project
+.pydevproject
+.settings
 
 
