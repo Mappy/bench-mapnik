@@ -6,9 +6,7 @@
 *.a
 *.dylib
 *.swp
-
-
-
-
+*.zip
+data/france_shapefiles
 
 

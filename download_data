@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mkdir -p ./data/france_shapefiles
+wget --no-clobber http://download.cloudmade.com/europe/western_europe/france/france.shapefiles.zip
+unzip france.shapefiles.zip -d ./data/france_shapefiles/
+
+

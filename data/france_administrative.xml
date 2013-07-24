@@ -8,7 +8,7 @@
     <Layer name="world_borders" >
         <StyleName>borders_style</StyleName>
         <Datasource>
-            <Parameter name="file">france_administrative.shp</Parameter>
+            <Parameter name="file">france_shapefiles/france_administrative.shp</Parameter>
             <Parameter name="type">shape</Parameter>
         </Datasource>
     </Layer>
